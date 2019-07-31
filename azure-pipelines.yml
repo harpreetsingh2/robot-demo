@@ -33,6 +33,5 @@ steps:
   displayName: 'Install dependencies'
 
 - script: |
-    robot Tets\demo.robot
-    pytest
-  displayName: 'pytest'
+    robot Tets\demo.robot    
+  displayName: 'test'
